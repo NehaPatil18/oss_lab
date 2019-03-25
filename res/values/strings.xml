@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="start_button">Let\'s get Started</string>
+    <string name="Welcome">Welcome to My Hobbies App</string>
+    <string name="painting">PAINTING</string>
+    <string name="reading">READING</string>
+    <string name="id">WHAT DO YOU LIKE?</string>
+    <string name="cooking">COOKING</string>
+    <string name="games">GAMES AND EXERCISE</string>
+    <string name="photography">PHOTOGRAPHY</string>
+    
+    
+    <string name="desc_cooking">NO ONE IS BORN A GREAT COOK,ONE LEARNS BY DOING!
+        Here are few things which might help you become a GREAT COOK: </string>
+    <string name="cookbook">
+        <a href="https://www.free-ebooks.net/food-recipes">COOKBOOKS</a>
+    </string>
+    <string name="tricks">
+        <a href="https://www.youtube.com/results?search_query=cooking+hacks+and+tricks">COOKING TIPS AND TRICKS</a>
+    </string>
+    <string name="beginner">
+        <a href="https://www.youtube.com/results?search_query=recipes+for+beginners">RECIPES FOR BEGINNERS</a>
+    </string>
+    <string name="chef">
+        <a href="https://www.youtube.com/results?search_query=chef+recipes">CHEF RECIPES</a>
+    </string>
+    <string name="cake">
+        <a href="https://www.youtube.com/results?search_query=cake+recipes">CAKE RECIPES</a>
+    </string>
+    
+    <string name="oil_painting">OIL PAINTING</string>
+    <string name="water_color">WATER COLOR PAINTING</string>
+    <string name="calligraphy">CALLIGRAPHY</string>
+    <string name="pencil_sketch">PENCIL SKETCH</string>
+    <string name="glass_painting">GLASS PAINTING</string>
+
+    <string name="oil_paint_vid1">
+        <a href="https://www.youtube.com/watch?v=W4BYGrn7ACM">VIDEO:Basics of OIL PAINTING</a>
+    </string>
+
+    <string name="oil_paint_vid2">
+        <a href="https://www.youtube.com/watch?v=x2-2KxG6tXo">VIDEO:OIL PAINTING for beginners</a>
+    </string>
+
+    <string name="oil_paint_article">
+        <a href="https://www.artsy.net/article/artsy-editorial-5-oil-painting-tips-beginners">ARTICLE:5 OIL PAINTING tips for beginners</a>
+    </string>
+
+    <string name="water_color_article">
+        <a href="https://watercolorpainting.com/">WATERCOLOR Techniques</a>
+    </string>
+
+    <string name="water_color_vid1">
+        <a href="https://www.youtube.com/watch?v=yKenAJfr818">VIDEO:WATERCOLOR Techniques</a>
+    </string>
+
+    <string name="water_color_vid2">
+        <a href="https://www.youtube.com/watch?v=sX_-27FK4yM">VIDEO:Moonlight Night Landscape Painting </a>
+    </string>
+
+    <string name="calligraphy_vid1">
+        <a href="https://www.youtube.com/watch?v=MX_fkLXlN78">VIDEO:A Basic Guide to Calligraphy</a>
+    </string>
+
+
+    <string name="calligraphy_article">
+        <a href="https://www.creativelive.com/blog/calligraphy-tips-fullosophie">ARTICLE:Calligraphy Tips</a>
+    </string>
+
+    <string name="pencil_vid1">
+        <a href="https://www.youtube.com/watch?v=aHI6s80-fNc">VIDEO: DRAWING PENCIL SKETCHES</a>
+    </string>
+
+    <string name="pencil_vid2">
+        <a href="https://www.youtube.com/watch?v=Xvla4576pKQ">VIDEO:LANDSCAPE PENCIL DRAWING</a>
+    </string>
+
+    <string name="glass_vid1">
+        <a href="https://www.youtube.com/watch?v=kR7ZHqpv9V4">VIDEO:Glass Painting tutorial for Beginners </a>
+    </string>
+
+    <string name="glass_vid2">
+        <a href="https://www.youtube.com/watch?v=KMSXvm9GEgo">VIDEO:GLASS PAINTING FOR BEGINNERS</a>
+    </string>
+
+
+
+</resources>

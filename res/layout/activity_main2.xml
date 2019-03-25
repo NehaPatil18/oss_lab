@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pinkimage"
+
+    tools:context=".Main2Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="10dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="@string/id"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            />
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/painting"
+
+                android:src="@mipmap/paint2" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_margin="12dp"
+                android:text="@string/painting"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/reading"
+                android:src="@drawable/bookstack" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_margin="12dp"
+                android:text="@string/reading"
+
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/cooking"
+                android:src="@mipmap/cutting" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_margin="12dp"
+                android:text="@string/cooking"
+
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/games"
+                android:src="@mipmap/basketball" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_margin="12dp"
+                android:text="@string/games"
+
+                android:textColor="@android:color/holo_purple"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/photography"
+                android:src="@mipmap/camera" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_margin="12dp"
+                android:text="@string/photography"
+
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

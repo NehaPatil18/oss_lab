@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pinkimage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_margin="15dp"
+                android:drawableTop="@mipmap/watercolor_vid1"
+                android:textSize="20sp"
+                android:text="@string/water_color_vid1"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="250dp"
+                android:layout_margin="15dp"
+                android:src="@mipmap/watercolor1" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="250dp"
+                android:layout_margin="15dp"
+                android:src="@mipmap/watercolor2" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="292dp"
+                android:layout_height="170dp"
+                android:layout_margin="15dp"
+                android:drawableTop="@mipmap/watercolor_vid2"
+                android:text="@string/water_color_vid2"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="250dp"
+                android:layout_margin="15dp"
+                android:src="@mipmap/watercolor3" />
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
